@@ -1,0 +1,79 @@
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url("./assets/bannerr.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: black;
+    height: 100vh;
+}
+
+.banner-text {}
+
+.banner h1 {
+    font-size: 65px;
+    color: #0a0342;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Times New Roman';
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+}
+
+.banner p {
+    color: black;
+    font-size: 22px;
+    font-family: 'Cabin';
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.banner button {
+    color: #201f1f;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+}
+
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.banner button:hover svg {
+    margin-left: 25px;
+}
+
+.banner img {
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.txt-rotate>.wrap {
+    border-right: 0.08em solid #666;
+}
