@@ -29,7 +29,7 @@ function Header() {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container className="nav-container container-fluid">
         <Navbar.Brand href="/">
-          <img src={image} height="100" width="auto" alt="" loading="lazy" />
+          <img className="logo img-fluid" src={image}  />
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>

@@ -1,0 +1,26 @@
+.services-section{
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: rgb(212, 235, 246);
+}
+.services-title {
+    margin-top: 40px;
+}
+.services-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+}
+.services-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.services-card{
+    height: 250px;
+    width: 300px;
+    border-radius: 25%;
+
+}

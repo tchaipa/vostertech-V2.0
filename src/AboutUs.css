@@ -1,0 +1,35 @@
+.about-us-section {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+.about-us-row {
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 100%;
+}
+.about-us-image {
+   border-radius: 25px;
+    /* max-width: 100%; */
+    width: 500px;
+    height: 450px;
+    display: block;
+    margin-left: 100px;
+    object-fit: cover;
+
+}
+.about-us-h1 {
+    align-items: start;
+    margin-right: 150px;
+}
+.about-us-image:nth-child(2) {
+    filter: drop-shadow(16px 16px red);
+  }

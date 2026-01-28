@@ -1,4 +1,4 @@
-.banner {
+.banner-section {
     margin-top: 0;
     padding: 260px 0 100px 0;
     background-image: url("./assets/bannerr.jpg");
@@ -9,8 +9,37 @@
     color: black;
     height: 100vh;
 }
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 20px;
+    padding: 40px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0px;
+}
+.banner-row {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    /* padding: 40px; */
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 100%;
+  
 
-.banner-text {}
+}
+.banner-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
 
 .banner h1 {
     font-size: 65px;
@@ -34,27 +63,7 @@
     line-height: 1.5em;
     width: 96%;
 }
-
-.banner button {
-    color: #201f1f;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: flex;
-    align-items: center;
-}
-
-.banner button svg {
-    font-size: 25px;
-    margin-left: 10px;
-    transition: 0.3s ease-in-out;
-    line-height: 1;
-}
-
-.banner button:hover svg {
-    margin-left: 25px;
-}
+ 
 
 .banner img {
     animation: updown 3s linear infinite;
