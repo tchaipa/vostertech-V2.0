@@ -2,6 +2,7 @@ import "./Header.css";
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import image from "./assets/vlogo.png";
+// import home from "./Banner.jsx";
 
 function Header() {
   const [activeLink, setActiveLink] = useState("home");
@@ -27,9 +28,9 @@ function Header() {
 
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-      <Container className="nav-container container-fluid">
+      <Container className="nav-container">
         <Navbar.Brand href="/">
-          <img className="logo img-fluid" src={image}  />
+          <img className="logo img-fluid" src={image} />
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -37,7 +38,7 @@ function Header() {
         <Navbar.Collapse>
           <Nav className="ms-auto nav-list">
             <Nav.Link
-              href="#home"
+              href="#/home"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }

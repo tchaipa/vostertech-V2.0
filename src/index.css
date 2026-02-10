@@ -1,3 +1,22 @@
+/* Styles for screens wider than 600px */
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -24,12 +43,11 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
   background-color: #fff;
+  overflow-x: hidden;
+  position: relative;
 }
 
 h1 {

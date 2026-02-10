@@ -1,47 +1,54 @@
 .banner-section {
-    margin-top: 0;
-    padding: 260px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
     background-image: url("./assets/bannerr.jpg");
-    background-position: top center;
+    /* background-position: top center; */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: black;
     height: 100vh;
 }
+
+/*  */
+
 .banner-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: start; */
+    align-items: start;
     gap: 20px;
-    padding: 40px;
-    flex-shrink: 0;
+    padding: 20px;
+    /* flex-shrink: 0; */
     width: 100%;
     max-width: 100%;
     margin-top: 0px;
 }
+
 .banner-row {
     display: flex;
     justify-content: center;
+    justify-items: center;
     align-items: start;
     gap: 20px;
-    /* padding: 40px; */
-    flex-shrink: 0;
+    padding: 40px;
     width: 50%;
     max-width: 100%;
-  
+    margin-top: 50px;
+
 
 }
+
 .banner-col {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    /* justify-content: start; */
+    /* align-items: start; */
     gap: 20px;
 }
 
-.banner h1 {
+.banner-col h1 {
     font-size: 65px;
     color: #0a0342;
     font-weight: 700;
@@ -55,7 +62,7 @@
     justify-items: start;
 }
 
-.banner p {
+.banner-col p {
     color: black;
     font-size: 22px;
     font-family: 'Cabin';
@@ -63,7 +70,8 @@
     line-height: 1.5em;
     width: 96%;
 }
- 
+
+
 
 .banner img {
     animation: updown 3s linear infinite;
