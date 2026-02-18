@@ -7,19 +7,28 @@ function AboutUs() {
   return (
     <div className="about-us-section">
       <Grid className="aboutus-grid">
-        <Row className="aboutus-row">
+        <Row className="aboutus-row container-fluid">
           <Col className="aboutus-col">
             <Image className="about-us-image" src={aboutus}></Image>
           </Col>
           <Col className="aboutus-col">
-            <h1 className="about-us-h1">About Us</h1>
-            <p>
-              We are a travel agency company with our main objective of offering
-              travel adventures to everyone. Our operations mainly target
-              Zimbabwe tourism destinations.
+            <h2 className="about-us-h4">About Us</h2>
+            <p className="about-us-p">
+              Welcome to Vostertech Consultancy, your trusted partner in
+              business registration and compliance. We are a team of experienced
+              professionals dedicated to helping you navigate the complex world
+              of business registration and compliance.
+              <br />
+              <br />
+              Our mission is to provide comprehensive, efficient, and
+              cost-effective solutions tailored to your specific needs.
+              <br />
+              Whether you are starting a new business, expanding your existing
+              operations, or looking to streamline your compliance processes, we
+              are here to support you every step of the way.
             </p>
             <Button className="about-us-button" href="">
-              Read More
+              Explore More
             </Button>
           </Col>
         </Row>

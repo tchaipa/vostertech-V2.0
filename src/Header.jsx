@@ -2,7 +2,6 @@ import "./Header.css";
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import image from "./assets/vlogo.png";
-// import home from "./Banner.jsx";
 
 function Header() {
   const [activeLink, setActiveLink] = useState("home");
@@ -30,11 +29,11 @@ function Header() {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container className="nav-container">
         <Navbar.Brand href="/">
-          <img className="logo img-fluid" src={image} />
+          <img className="logo" src={image} />
         </Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
-        </Navbar.Toggle> */}
+        </Navbar.Toggle>
         <Navbar.Collapse>
           <Nav className="ms-auto nav-list">
             <Nav.Link
@@ -56,6 +55,15 @@ function Header() {
               About Us
             </Nav.Link>
             <Nav.Link
+              href="#services"
+              className={
+                activeLink === "services" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("services")}
+            >
+              Services
+            </Nav.Link>
+            <Nav.Link
               href="#contact"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
@@ -63,15 +71,6 @@ function Header() {
               onClick={() => onUpdateActiveLink("contact")}
             >
               Contact
-            </Nav.Link>
-            <Nav.Link
-              href="#services"
-              className={
-                activeLink === "services" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("contact")}
-            >
-              Services
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

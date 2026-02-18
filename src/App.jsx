@@ -8,7 +8,7 @@ import Testimonials from "./Testimonials";
 
 function App() {
   return (
-    <div className="app container-fluid">
+    <div className="app ">
       <Header />
       <Banner />
       <AboutUs />

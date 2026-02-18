@@ -1,22 +1,12 @@
 import { Box, Card, Grid, Icon } from "@mui/material";
 import "./Services.css";
-import { Image, Row } from "react-bootstrap";
-import reg from "./assets/registration.png";
-import tax from "./assets/tax.png";
-import comp from "./assets/compliance.png";
-import fin from "./assets/financial.png";
-import social from "./assets/secretary.png";
-import buscon from "./assets/buscon.png";
-import legal from "./assets/public.svg";
-import web from "./assets/private.svg";
-import AnimatedContent from "./AnimatedContent";
 
-// import { Col, Row } from "react-bootstrap";
+import AnimatedContent from "./AnimatedContent";
 
 function Services() {
   return (
     <div className="services-section ">
-      <h1 className="services-title ">Our Services</h1>
+      <h2 className="services-title ">Our Services</h2>
       <p>
         Vostertech Consultancy is a leading provider of business registration
         services in Zimbabwe. We offer a wide range of services including:
@@ -25,39 +15,53 @@ function Services() {
       <Box className="services-box ">
         <Grid className="services-grid ">
           <Card className="services-card ">
-            <Image className="services-icons" src={reg}></Image>
-            <h3>Company Registration</h3>
+            <h4>Company Registration</h4>
+            <p>
+              We offer company registration services for all kinds of business
+              and all industries
+            </p>
           </Card>
           <Card className="services-card ">
-            <Image className="services-icons" src={buscon}></Image>
-
-            <h3>Business Consultations</h3>
+            <h4>Business Consultations</h4>
+            <p>
+              We provide you with consultations on your business with how to
+              move forward be it a startup or a large organization.
+            </p>
           </Card>
           <Card className="services-card ">
-            <Image className="services-icons" src={tax}></Image>
-            <h3>Tax Advisory</h3>
+            <h4>Tax Advisory</h4>
+            <p>We offer Tax Advisory services</p>
           </Card>
           <Card className="services-card ">
-            <Image className="services-icons" src={fin}></Image>
-            <h3> Financial Advisory</h3>
+            <h4> Financial Advisory</h4>
+            <p>We also offer Financial Advisory services.</p>
           </Card>
         </Grid>
         <Grid className="services-grid ">
           <Card className="services-card ">
-            <Image className="services-icons" src={comp}></Image>
-            <h3>Compliance Services</h3>
+            <h4>Compliance Services</h4>
+            <p>
+              We help your company stay compliant to all the rules and laws that
+              govern companies.
+            </p>
           </Card>
           <Card className="services-card ">
-            <Image className="services-icons" src={legal}></Image>
-            <h3>Business Legal Services</h3>
+            <h4>Business Legal Services</h4>
+            <p>
+              We offer business legal advice with professionals on standy 24/7
+              to help your business grow
+            </p>
           </Card>
           <Card className="services-card ">
-            <Image className="services-icons" src={web}></Image>
-            <h3> Website Development</h3>
+            <h4> Website Development</h4>
+            <p>
+              We offer website design and development services to help put your
+              company on the digital map.
+            </p>
           </Card>
           <Card className="services-card">
-            <Image className="services-icons" src={social}></Image>
-            <h3> Social Media Management</h3>
+            <h4> Social Media Management</h4>
+            <p>We help you manage your company brand socially</p>
           </Card>
         </Grid>
       </Box>

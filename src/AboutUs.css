@@ -1,29 +1,26 @@
 .about-us-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     border-radius: 10px;
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
+    margin-top: 50px;
 
 }
 
 .aboutus-row {
     display: flex;
     margin: 20px;
-    gap: 100px;
+    gap: 10px;
 }
 
 
 
 .about-us-button {
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid transparent;
     padding: 8px;
-    /* margin: 50px; */
     background-color: rgb(4, 1, 65);
-    /* width: 150px; */
-    align-self: center;
+    width: 150px;
     color: white;
 }
 
@@ -46,11 +43,18 @@
     display: block;
     object-fit: cover;
     aspect-ratio: 16/9;
-    border-radius: 10px;
-    margin-left: 30px;
+    border-radius: 20px;
+    top: 50px;
+
 
 }
 
-.about-us-section h1 {
-    color: rgb(4, 1, 65);
+.about-us-p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    height: auto;
+    font-style: italic;
+    color: darkgray;
 }

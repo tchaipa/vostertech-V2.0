@@ -1,3 +1,11 @@
-.testimonials {
-    flex-direction: row;
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #acacc7;
+}
+
+.testimonials-section p,
+h2 {
+    align-self: center;
 }

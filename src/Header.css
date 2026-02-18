@@ -147,9 +147,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .logo {
-    width: 286px;
-    height: 100px;
     object-fit: cover;
-    alt: "Vostertech Logo";
-    padding-left: 20px;
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
 }

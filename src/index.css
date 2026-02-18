@@ -13,9 +13,7 @@
   }
 }
 
-/* html {
-  scroll-behavior: smooth;
-} */
+
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -43,6 +41,8 @@ a:hover {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
   background-color: #fff;
@@ -53,6 +53,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2 {
+  color: rgb(10, 2, 57);
 }
 
 button {

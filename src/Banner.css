@@ -1,9 +1,10 @@
 .banner-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-items: center;
     background-image: url("./assets/bannerr.jpg");
-    /* background-position: top center; */
+    background-position: top center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -11,7 +12,6 @@
     height: 100vh;
 }
 
-/*  */
 
 .banner-content {
     display: flex;
@@ -20,20 +20,17 @@
     align-items: start;
     gap: 20px;
     padding: 20px;
-    /* flex-shrink: 0; */
-    width: 100%;
+
     max-width: 100%;
-    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .banner-row {
     display: flex;
     justify-content: center;
     justify-items: center;
-    align-items: start;
+    align-items: center;
     gap: 20px;
-    padding: 40px;
-    width: 50%;
     max-width: 100%;
     margin-top: 50px;
 
@@ -43,8 +40,6 @@
 .banner-col {
     display: flex;
     flex-direction: column;
-    /* justify-content: start; */
-    /* align-items: start; */
     gap: 20px;
 }
 
