@@ -1,84 +1,126 @@
-import { Image } from "react-bootstrap";
 import "./Footer.css";
-import logo from "./assets/vlogo.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Footer() {
   return (
-    <div className="footer-section ">
-      <div className="container ">
-        <div className="footer ">
-          <div className="newsletter">
-            <div className="newsletter-left">
-              <h2>Subscribe to our</h2>
-              <h1>Newsletter</h1>
-            </div>
-            <div className="newsletter-right">
-              <div className="newsletter-input">
-                <input type="text" placeholder="Enter Your Email Address" />
-                <button>Submit</button>
+    <div className="footer-section container-fluid">
+      <footer class="footer-content py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Features
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  FAQs
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Features
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  FAQs
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Features
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  FAQs
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  About
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">
+                  Email address
+                </label>
+                <input
+                  id="newsletter1"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="footer-btn btn-primary" type="button">
+                  Subscribe
+                </button>
               </div>
-            </div>
+            </form>
           </div>
-
-          <div className="footer-content">
-            <div className="footer-main">
-              <Image src={logo} className="footer-logo"></Image>
-
-              <div className="social-links">
-                <a href="#">
-                  <i className="ph-fill ph-instagram-logo"></i>
-                </a>
-                <a href="#">
-                  <i className="ph-fill ph-twitter-logo"></i>
-                </a>
-                <a href="#">
-                  <i className="ph-fill ph-tiktok-logo"></i>
-                </a>
-                <a href="#">
-                  <i className="ph-fill ph-facebook-logo"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* <div className="links">
-            <p>Information</p>
-            <a href="" className="link">
-              Our Company
-            </a>
-            <a href="" className="link">
-              About Us
-            </a>
-            <a href="" className="link">
-              Blog
-            </a>
-          </div>
-          <div className="links">
-            <p>Helpful Links</p>
-            <a href="" className="link">
-              Services
-            </a>
-            <a href="" className="link">
-              Support
-            </a>
-            <a href="" className="link">
-              Terms & Conditions
-            </a>
-          </div>
-          <div className="links">
-            <p>Navigations</p>
-            <a href="" className="link">
-              Home
-            </a>
-            <a href="" className="link">
-              About Us
-            </a>
-            <a href="" className="link">
-              Contact
-            </a>
-          </div> */}
         </div>
-      </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 border-top">
+          <p>&copy; 2026 VosterTech. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }

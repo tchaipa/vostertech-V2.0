@@ -4,6 +4,14 @@
     justify-items: center;
     align-items: center;
     height: auto;
+    background-image: url("../src/assets/action.webp");
+    /* background-color: rgb(185, 185, 209); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-blend-mode: lighten !important;
+
 }
 
 .services-title {
@@ -11,6 +19,9 @@
 
 }
 
+.services-description {
+    color: white;
+}
 
 .services-grid {
     display: flex;
@@ -24,14 +35,16 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin: 100px;
 }
 
 .services-card {
-    height: 250px;
-    width: 300px;
-    background-color: transparent !important;
-    border-radius: 20px !important;
-    backdrop-filter: blur(10px) !important;
+    color: rgb(2, 2, 74) !important;
+    height: 300px;
+    width: 400px;
+    background-color: white !important;
+    /* border-radius: 20px !important; */
+    /* backdrop-filter: blur(10px) !important; */
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -41,6 +54,7 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     padding: 20px;
     text-align: center;
+    gap: 30px;
 
 }
 
@@ -59,4 +73,5 @@
     filter: blur(0) brightness(100%);
     transform: scale(1.22) translateY(-5px);
     z-index: 10;
+    color: orange !important;
 }

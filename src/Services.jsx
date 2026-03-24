@@ -1,26 +1,20 @@
 import { Box, Card, Grid, Icon } from "@mui/material";
 import "./Services.css";
+import { FaBus, FaHotel } from "react-icons/fa";
 
 import AnimatedContent from "./AnimatedContent";
 
 function Services() {
   return (
-    <div className="services-section ">
-      <h2 className="services-title ">Our Services</h2>
-      <p>
+    <div className="services-section container-fluid">
+      <h2 className="services-title ">Services</h2>
+      <p className="services-description">
         Vostertech Consultancy is a leading provider of business registration
         services in Zimbabwe. We offer a wide range of services including:
       </p>
 
       <Box className="services-box ">
         <Grid className="services-grid ">
-          <Card className="services-card ">
-            <h4>Company Registration</h4>
-            <p>
-              We offer company registration services for all kinds of business
-              and all industries
-            </p>
-          </Card>
           <Card className="services-card ">
             <h4>Business Consultations</h4>
             <p>
@@ -59,9 +53,25 @@ function Services() {
               company on the digital map.
             </p>
           </Card>
+        </Grid>
+        <Grid className="services-grid ">
+          <Card className="services-card ">
+            <h4> Website Development</h4>
+            <p>
+              We offer website design and development services to help put your
+              company on the digital map.
+            </p>
+          </Card>
           <Card className="services-card">
             <h4> Social Media Management</h4>
             <p>We help you manage your company brand socially</p>
+          </Card>
+          <Card className="services-card ">
+            <h4>Company Registration</h4>
+            <p>
+              We offer company registration services for all kinds of business
+              and all industries
+            </p>
           </Card>
         </Grid>
       </Box>

@@ -1,6 +1,6 @@
 import "./Header.css";
 import { useState, useEffect } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import image from "./assets/vlogo.png";
 
 function Header() {
@@ -64,7 +64,7 @@ function Header() {
               Services
             </Nav.Link>
             <Nav.Link
-              href="#contact"
+              href="contacts"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
               }

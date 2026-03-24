@@ -13,9 +13,9 @@ function Carousell() {
       <CarouselItem className="carousel-item">
         <Card className="carousel-card">2</Card>
       </CarouselItem>
-      {/* <CarouselItem className="carousel-item">
+      <CarouselItem className="carousel-item">
         <Card className="carousel-card">3</Card>
-      </CarouselItem> */}
+      </CarouselItem>
     </Carousel>
   );
 }
