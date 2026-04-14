@@ -1,0 +1,75 @@
+.works-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.works-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.works-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.works-col h4 {
+    color: #0a0342;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}
+
+.works-col span {
+    color: #0a0342;
+    font-size: 18px;
+    font-family: 'Cabin';
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.works-number {
+    color: #0a0342;
+    font-size: 20px;
+    font-weight: 700;
+    /* letter-spacing: 0.8px;
+    line-height: 1.5em; */
+    background-color: rgb(142, 157, 171) !important;
+    padding: 10px 20px;
+    border-radius: 100px;
+
+}
+
+.works-col:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+/* .works-button {
+    color: white;
+    background-color: rgb(4, 1, 65) !important;
+    border: 1px solid transparent !important;
+} */

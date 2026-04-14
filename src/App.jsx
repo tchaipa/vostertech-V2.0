@@ -5,6 +5,8 @@ import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
+import Works from "./Works";
+import Registration from "./Registration";
 import Blog from "./Blog";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Services />
       <Blog />
       <Testimonials />
+      <Works />
+      <Registration />
       <Footer />
     </div>
   );

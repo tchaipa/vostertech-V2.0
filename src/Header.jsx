@@ -46,15 +46,6 @@ function Header() {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#aboutus"
-              className={
-                activeLink === "about" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("about")}
-            >
-              About Us
-            </Nav.Link>
-            <Nav.Link
               href="#services"
               className={
                 activeLink === "services" ? "active navbar-link" : "navbar-link"
@@ -71,6 +62,15 @@ function Header() {
               onClick={() => onUpdateActiveLink("contact")}
             >
               Contact
+            </Nav.Link>
+            <Nav.Link
+              href="log-in"
+              className={
+                activeLink === "login" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("about")}
+            >
+              Log In
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

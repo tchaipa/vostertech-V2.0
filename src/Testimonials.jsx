@@ -50,7 +50,9 @@ function Testimonials() {
         </div>
       </div>
       <br />
-      <Button className="testimonials-button">Read More</Button>
+      <Button className="testimonials-button" href="not-found">
+        Read More
+      </Button>
     </div>
   );
 }

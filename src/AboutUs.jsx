@@ -26,7 +26,7 @@ function AboutUs() {
               operations, or looking to streamline your compliance processes, we
               are here to support you every step of the way. */}
             </p>
-            <Button className="about-us-button" href="">
+            <Button className="about-us-button" href="services-page">
               Explore More
             </Button>
           </Col>

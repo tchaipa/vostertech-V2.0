@@ -14,21 +14,45 @@ function Blog() {
           <Image className="blog-image" alt="" src={four}></Image>
           <div className="blog-card-content">
             <h5>Presumptive Tax vs Tax Clearance</h5>
-            <span>8 min read</span>
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              obcaecati voluptatum error voluptate asperiores eligendi possimus,
+              corporis aliquam perferendis fugit odit illo deleniti a ipsum.
+              Fugiat assumenda omnis incidunt provident...
+              <a className="blog-link" href="">
+                Read More
+              </a>
+            </span>
           </div>
         </div>
         <div className="blog-card card">
           <Image className="blog-image" alt="" src={one}></Image>
           <div className="blog-card-content">
             <h5>Presumptive Tax vs Tax Clearance</h5>
-            <span>5 min read</span>
+            <span>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+              suscipit necessitatibus distinctio, incidunt nulla perferendis
+              amet exercitationem ab quia non aperiam aliquid harum quasi eos
+              ex, porro ipsa magnam atque...
+              <a className="blog-link" href="">
+                Read More
+              </a>
+            </span>
           </div>
         </div>
         <div className="blog-card card">
           <Image className="blog-image" alt="" src={two}></Image>
           <div className="blog-card-content">
             <h5>Presumptive Tax vs Tax Clearance</h5>
-            <span>8 min read</span>
+            <span>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              inventore iusto ut? Eum ipsa officia sit, necessitatibus aliquid
+              omnis voluptatum harum ab, nulla sequi deserunt eligendi quisquam
+              provident quo vel...
+              <a className="blog-link" href="blogs">
+                Read More
+              </a>
+            </span>
           </div>
         </div>
       </div>
