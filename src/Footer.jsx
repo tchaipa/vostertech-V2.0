@@ -1,124 +1,75 @@
 import "./Footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import image from "./assets/vlogo.png";
 
 function Footer() {
   return (
     <div className="footer-section container-fluid">
-      <footer class="footer-content py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Home
-                </a>
+      <footer>
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo">
+              <img className="logo" src={image} />
+            </div>
+            <p>
+              Your trusted partner in business registration and compliance. We
+              help businesses across Zimbabwe and beyond get started the right
+              way.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li>
+                <a href="#">Company Registration</a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Features
-                </a>
+              <li>
+                <a href="#">Tax Advisory</a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Pricing
-                </a>
+              <li>
+                <a href="#">Compliance</a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  FAQs
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  About
-                </a>
+              <li>
+                <a href="#">Web Development</a>
               </li>
             </ul>
           </div>
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Home
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li>
+                <a href="#" onclick="showPage('about')">
+                  About Us
                 </a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Features
-                </a>
+              <li>
+                <a href="#">Blog</a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Pricing
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  FAQs
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  About
-                </a>
+              <li>
+                <a href="#">Privacy Policy</a>
               </li>
             </ul>
           </div>
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Home
-                </a>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li>
+                <a href="#">📍 Harare, Zimbabwe</a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Features
-                </a>
+              <li>
+                <a href="#">📞 +263 77 000 0000</a>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  Pricing
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  FAQs
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-body-secondary">
-                  About
+              <li>
+                <a href="#" onclick="showPage('contact')">
+                  Get in Touch
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
-                  Email address
-                </label>
-                <input
-                  id="newsletter1"
-                  type="email"
-                  class="form-control"
-                  placeholder="Email address"
-                />
-                <button class="footer-btn btn-primary" type="button">
-                  Subscribe
-                </button>
-              </div>
-            </form>
           </div>
         </div>
-        <div class="d-flex flex-column flex-sm-row justify-content-center mt-4 border-top">
-          <p>&copy; 2026 VosterTech. All rights reserved.</p>
+        <div class="footer-bottom">
+          <span>© 2026 VosterTech. All rights reserved.</span>
+          <span>Made with ♦ in Zimbabwe</span>
         </div>
       </footer>
     </div>

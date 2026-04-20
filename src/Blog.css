@@ -1,59 +1,84 @@
-.blog-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    height: auto;
-}
-
-.blog-cards {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 100px;
-    gap: 30px;
+.blog-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
 }
 
 .blog-card {
-    width: 400px;
-    max-width: 100%;
-    /* height: 450px; */
-    background-color: white;
+    background: white !important;
     border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden !important;
+    border: 1px solid gray !important;
+    transition: all .3s;
+    margin-bottom: 30px;
 }
 
-.blog-image {
-    width: auto;
-    height: 250px;
+.blog-card:hover {
+    box-shadow: 4px red !important;
+    transform: translateY(-3px);
+}
+
+.blog-img {
+    height: 180px !important;
+    background: navy;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
+    opacity: .85;
 }
 
-.blog-card-content {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 10px;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-
+.blog-img-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 100%) !important;
 }
 
-.blog-card-content span {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #0a0342;
+.blog-body {
+    padding: 24px 22px 28px !important;
+}
+
+.blog-tag {
+    display: inline-block;
+    background: orange;
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.blog-body h3 {
     font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    text-align: center;
+    color: navy;
+    margin-bottom: 10px;
+}
 
+.blog-body p {
+    color: gray;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+.blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: gray;
+    font-size: 12px;
+}
+
+.section {
+    margin: 50px;
 }

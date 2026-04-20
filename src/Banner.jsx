@@ -19,6 +19,9 @@ export default function Banner() {
               <Button className="banner-button" href="sign-up">
                 Book An Appointment
               </Button>
+              <Button className="banner-button" href="sign-up">
+                View Our Services
+              </Button>
             </div>
           </Col>
           <Col></Col>

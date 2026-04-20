@@ -1,14 +1,17 @@
 .testimonials-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #ced4db;
+    height: auto;
+    /* background-color: #ced4db; */
+    background-color: #0a0342;
 }
 
 .testimonials-title {
     margin-top: 100px;
-    color: #0a0342;
+    color: white !important;
+    /* color: #0a0342; */
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.8px;
@@ -75,4 +78,78 @@
 
 .fa-star {
     color: gold;
+}
+
+
+.testimonials-bg {
+    background: var(--navy);
+}
+
+.testimonials-bg .section-title {
+    color: var(--white);
+}
+
+.testimonials-bg .section-sub {
+    color: rgba(255, 255, 255, .6);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.testi-card {
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: var(--radius-lg);
+    padding: 32px 28px;
+}
+
+.stars {
+    color: gold !important;
+    font-size: 16px !important;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+}
+
+.testi-card p {
+    color: rgba(255, 255, 255, .8);
+    font-size: 15px;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.testi-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 14px;
+}
+
+.testi-author h4 {
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.testi-author span {
+    color: gold;
+    font-size: 12px;
 }
