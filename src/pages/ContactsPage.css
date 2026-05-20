@@ -1,0 +1,152 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.55fr;
+    gap: 56px;
+    align-items: start;
+}
+
+.cinfo h3 {
+    font-size: 26px;
+    color: var(--navy);
+    margin-bottom: 14px;
+}
+
+.cinfo>p {
+    color: var(--gray-600);
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.citem {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 22px;
+}
+
+.cicon {
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    background: var(--gold-light);
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.citem h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 3px;
+}
+
+.citem p {
+    font-size: 13.5px;
+    color: var(--gray-600);
+}
+
+.cform {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 38px;
+    border: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+}
+
+.cform h3 {
+    font-size: 20px;
+    color: var(--navy);
+    margin-bottom: 4px;
+}
+
+.cform .cfsub {
+    font-size: 13.5px;
+    color: var(--gray-600);
+    margin-bottom: 26px;
+}
+
+.frow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.fg {
+    margin-bottom: 18px;
+}
+
+.fg label {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--gray-800);
+    margin-bottom: 7px;
+    letter-spacing: .15px;
+}
+
+.fg input,
+.fg select,
+.fg textarea {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1.5px solid var(--gray-200);
+    border-radius: 7px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13.5px;
+    color: var(--text);
+    background: var(--gray-50);
+    transition: all .2s;
+    outline: none;
+}
+
+.fg input:focus,
+.fg select:focus,
+.fg textarea:focus {
+    border-color: var(--gold);
+    background: var(--white);
+    box-shadow: 0 0 0 3px rgba(212, 150, 58, .1);
+}
+
+.fg textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Map placeholder */
+.map-box {
+    background: var(--gray-100);
+    border-radius: var(--radius-lg);
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--gray-200);
+    margin-top: 42px;
+    color: var(--gray-400);
+    font-size: 13px;
+    gap: 10px;
+}
+
+.map-box span {
+    font-size: 36px;
+}
+
+.btn-orange {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px
+}
+
+.logo-name {
+    color: white;
+}
+
+/* style="font-size:22px;color:var(--navy);margin-bottom:6px; */
+/* btn-gold style="width:100%;font-size:16px;padding:16px;" */
+/* style="font-size:14px;color:var(--gray-600);margin-bottom:28px; */

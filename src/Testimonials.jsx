@@ -57,7 +57,7 @@ function Testimonials() {
         <div class="section-inner">
           <div class="section-header center">
             <span class="section-tag">Client Feedback</span>
-            <h2 class="section-title">What Our Clients Say</h2>
+            <h2 class="section-title-test">What Our Clients Say</h2>
             <div class="divider center"></div>
             <p class="section-sub">
               Here is what our clients have to say about us.

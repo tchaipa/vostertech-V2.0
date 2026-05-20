@@ -16,8 +16,8 @@ function Blog() {
         </div>
         <div class="blog-grid">
           <div class="blog-card">
-            <div class="blog-img">
-              <div class="blog-img-placeholder">📝</div>
+            <div class="blog-img-1">
+              {/* <div class="blog-img-placeholder">📝</div> */}
             </div>
             <div class="blog-body">
               <span class="blog-tag">Tax</span>
@@ -33,8 +33,8 @@ function Blog() {
             </div>
           </div>
           <div class="blog-card">
-            <div class="blog-img">
-              <div class="blog-img-placeholder">🏛️</div>
+            <div class="blog-img-2">
+              {/* <div class="blog-img-placeholder">🏛️</div> */}
             </div>
             <div class="blog-body">
               <span class="blog-tag">Registration</span>
@@ -50,8 +50,8 @@ function Blog() {
             </div>
           </div>
           <div class="blog-card">
-            <div class="blog-img">
-              <div class="blog-img-placeholder">📈</div>
+            <div class="blog-img-3">
+              {/* <div class="blog-img-placeholder">📈</div> */}
             </div>
             <div class="blog-body">
               <span class="blog-tag">Finance</span>

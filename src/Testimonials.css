@@ -4,8 +4,11 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    /* background-color: #ced4db; */
     background-color: #0a0342;
+    /* background-image: url("../src/assets/action.webp") !important; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .testimonials-title {
@@ -33,6 +36,7 @@
     justify-items: center;
     align-items: center;
     background-color: transparent;
+
     border-color: orange;
     border-width: 1px;
     height: 400px;
@@ -102,7 +106,7 @@
 .testi-card {
     background: rgba(255, 255, 255, .05);
     border: 1px solid rgba(255, 255, 255, .1);
-    border-radius: var(--radius-lg);
+    border-radius: 10px;
     padding: 32px 28px;
 }
 
@@ -138,7 +142,7 @@
     justify-content: center;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    color: var(--navy);
+    color: navy;
     font-size: 14px;
 }
 
@@ -152,4 +156,13 @@
 .testi-author span {
     color: gold;
     font-size: 12px;
+}
+
+.section-tag {
+    color: orange;
+
+}
+
+.section-title-test {
+    color: white !important;
 }

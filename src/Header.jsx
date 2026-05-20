@@ -37,7 +37,7 @@ function Header() {
         <Navbar.Collapse>
           <Nav className="ms-auto nav-list">
             <Nav.Link
-              href="#/home"
+              href="/"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
@@ -46,7 +46,7 @@ function Header() {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#services"
+              href="services"
               className={
                 activeLink === "services" ? "active navbar-link" : "navbar-link"
               }

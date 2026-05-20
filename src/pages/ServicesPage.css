@@ -1,0 +1,102 @@
+.services-page-section {
+    background-color: rgb(151, 154, 157);
+    margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ═══════════ SERVICES PAGE ═══════════ */
+/* .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+    margin-top: 48px;
+} */
+
+/* .pcard {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 32px 28px;
+    text-align: center;
+    transition: all .28s;
+    position: relative;
+} */
+
+/* .pcard:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-4px);
+} */
+
+.pcard.featured {
+    border: 2px solid orange;
+}
+
+/* .pcard .pfeat {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: orange;
+    color: navy;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+} */
+
+/* .pcard h3 {
+    font-size: 20px;
+    color: navy;
+    margin-bottom: 8px;
+} */
+
+/* .pcard .price {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: orange;
+    line-height: 1;
+    margin: 14px 0 4px;
+} */
+
+.pcard .price sup {
+    font-size: 18px;
+    vertical-align: super;
+}
+
+.pcard .psub {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 22px;
+}
+
+.pcard ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.pcard ul li {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 13.5px;
+    color: gray;
+    padding: 6px 0;
+    border-bottom: 1px solid gray;
+}
+
+.pcard ul li:last-child {
+    border: none;
+}
+
+.pcard ul li::before {
+    content: '✓';
+    color: orange;
+    font-weight: 700;
+    font-size: 13px;
+}

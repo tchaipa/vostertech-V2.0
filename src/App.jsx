@@ -16,10 +16,10 @@ function App() {
       <Banner />
       <AboutUs />
       <Services />
-      <Blog />
-      <Testimonials />
       <Works />
       <Registration />
+      <Testimonials />
+      <Blog />
       <Footer />
     </div>
   );

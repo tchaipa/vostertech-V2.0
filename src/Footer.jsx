@@ -69,7 +69,7 @@ function Footer() {
         </div>
         <div class="footer-bottom">
           <span>© 2026 VosterTech. All rights reserved.</span>
-          <span>Made with ♦ in Zimbabwe</span>
+          <span>Made with ♦ by Zeus</span>
         </div>
       </footer>
     </div>
