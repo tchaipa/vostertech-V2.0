@@ -157,3 +157,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         flex-direction: row;
     }
 }
+.header-button {
+    background-color: transparent !important;
+    border-color:orange !important;
+    padding: 15px;
+    width: 100%;
+}
+.header-button:hover {
+    background-color: white !important;
+    color: black !important;
+}

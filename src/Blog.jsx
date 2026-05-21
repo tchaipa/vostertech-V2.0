@@ -13,6 +13,9 @@ function Blog() {
           <span class="section-tag">Insights</span>
           <h2 class="section-title">Latest Articles</h2>
           <div class="divider center"></div>
+          <p class="section-sub">
+            Stay updated with the latest news and insights from our team.
+          </p>
         </div>
         <div class="blog-grid">
           <div class="blog-card">

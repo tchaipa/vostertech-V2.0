@@ -9,10 +9,12 @@ import BlogPage from "./pages/BlogPage.jsx";
 import SignupPage from "./pages/SignupPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import ServicesPage from "./pages/ServicesPage.jsx";
+import FAQ from "./pages/FAQ.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "contacts", element: <ContactsPage /> },
+  { path: "faq", element: <FAQ /> },
   { path: "not-found", element: <NotFoundPage /> },
   { path: "blogs", element: <BlogPage /> },
   { path: "sign-up", element: <SignupPage /> },

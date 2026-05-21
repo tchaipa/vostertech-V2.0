@@ -43,3 +43,12 @@
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
+.registration-button:focus {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

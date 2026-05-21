@@ -4,7 +4,12 @@ import "./Works.css";
 function Works() {
   return (
     <div className="works-section">
-      <h2>How It Works</h2>
+      <span class="tag">The Process</span>
+      <h2 class="section-title">How It Works</h2>
+      <div class="divider mx-auto"></div>
+      <p class="section-sub">
+        Get your company registered in three simple steps — fast, affordable, and fully compliant.
+      </p>
       <div className="works-row row ">
         <div className="works-col col">
           <div className="works-number">1</div>

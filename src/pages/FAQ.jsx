@@ -1,8 +1,10 @@
 import "./FAQ.css";
+import Header from "../Header";
 
 function FAQ() {
   return (
     <div className="faq-section">
+      <Header />
       <section class="section bg-gray">
         <div class="section-inner">
           <div class="sh center">

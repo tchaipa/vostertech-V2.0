@@ -19,7 +19,7 @@ export default function Banner() {
               <Button className="banner-button-1" href="sign-up">
                 Book An Appointment
               </Button>
-              <Button className="banner-button-2" href="sign-up">
+              <Button className="banner-button-2" href="services">
                 View Our Services
               </Button>
             </div>

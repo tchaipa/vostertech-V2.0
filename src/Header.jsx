@@ -1,7 +1,9 @@
 import "./Header.css";
 import { useState, useEffect } from "react";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown, Button } from "react-bootstrap";
 import image from "./assets/vlogo.png";
+
+
 
 function Header() {
   const [activeLink, setActiveLink] = useState("home");
@@ -55,6 +57,15 @@ function Header() {
               Services
             </Nav.Link>
             <Nav.Link
+              href="faq"
+              className={
+                activeLink === "faq" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("faq")}
+            >
+              FAQ
+            </Nav.Link>
+            <Nav.Link
               href="contacts"
               className={
                 activeLink === "contact" ? "active navbar-link" : "navbar-link"
@@ -63,15 +74,17 @@ function Header() {
             >
               Contact
             </Nav.Link>
-            <Nav.Link
+            <Button  className="header-button" href="log-in">
+              Log In
+            </Button>
+            {/* <Nav.Link
               href="log-in"
               className={
                 activeLink === "login" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("about")}
             >
-              Log In
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -9,7 +9,7 @@ function Registration() {
         Get your company registered today - fast , affordable and fully
         compliant
       </span>
-      <Button>Start Registration</Button>
+      <Button className="registration-button" href="sign-up" onclick="go('sign-up')" >Start Registration</Button>
     </div>
   );
 }

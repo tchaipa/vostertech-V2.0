@@ -1,4 +1,3 @@
-import FAQ from "../FAQ";
 import Header from "../Header";
 import "./ServicesPage.css";
 
@@ -91,8 +90,9 @@ function ServicesPage() {
             </div>
           </div>
         </div>
+
       </section>
-      <FAQ />
+    
     </div>
   );
 }

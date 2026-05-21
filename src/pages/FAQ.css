@@ -1,0 +1,162 @@
+/* FAQ */
+.faq-section {
+    background: rgb(130, 129, 129);
+    /* padding: 20px; */    
+    padding-top: 100px;
+    /* margin-top: 20px; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.faq-wrap {
+    max-width: 740px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.faq {
+    border: 1px solid gray;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(180, 178, 178, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-border: 1px solid rgba(255, 255, 255, 0.3);
+    -moz-border: 1px solid rgba(255, 255, 255, 0.3);
+    -o-border: 1px solid rgba(255, 255, 255, 0.3);
+    -ms-border: 1px solid rgba(255, 255, 255, 0.3);
+   
+}
+
+.faq-q {
+    padding: 18px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15.5px;
+    color: navy;
+    transition: background .2s;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.faq-q:hover {
+    background: rgb(243, 240, 240);
+}
+
+.faq-q .arr {
+    color: orange;
+    font-size: 20px;
+    transition: transform .3s;
+    line-height: 1;
+}
+
+.faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .32s ease;
+}
+
+.faq-a.open {
+    max-height: 180px;
+}
+
+.faq-a p {
+    padding: 0 22px 18px;
+    color: gray;
+    font-size: 14.5px;
+    line-height: 1.8;
+}
+.faq-button {
+    color: white;
+    background-color: rgb(4, 1, 65) !important;
+    border: 1px solid transparent !important;
+}
+.faq-button:hover {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}       
+.faq-button:focus {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.faq-button:disabled {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.faq-button:disabled:hover {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.faq-button:disabled:focus {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.faq-button:disabled:disabled {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.faq-button:disabled:disabled:hover {
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.faq-button:disabled:disabled:focus {       
+    background-color: rgb(4, 1, 65) !important;
+    color: white;
+    border: 1px solid transparent !important;
+    transform: scale(1.05);
+    opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+
+
