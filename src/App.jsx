@@ -11,7 +11,7 @@ import Blog from "./Blog";
 
 function App() {
   return (
-    <div className="app ">
+    <div className="app">
       <Header />
       <Banner />
       <AboutUs />

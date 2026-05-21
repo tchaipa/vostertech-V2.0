@@ -157,9 +157,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         flex-direction: row;
     }
 }
-.header-button {
-    background-color: transparent !important;
-    border-color:orange !important;
+.header-btn{
+    background-color: rgb(9, 1, 58) !important;
+    color: white !important;
     padding: 15px;
     width: 100%;
 }

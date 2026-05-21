@@ -1,4 +1,4 @@
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 import "./Registration.css";
 
 function Registration() {
@@ -9,7 +9,10 @@ function Registration() {
         Get your company registered today - fast , affordable and fully
         compliant
       </span>
-      <Button className="registration-button" href="sign-up" onclick="go('sign-up')" >Start Registration</Button>
+      <a className="btn reg-btn" href="log-in" onclick="go('log-in')">
+              Start Registration
+            </a>
+      {/* <Button className="registration-button" href="sign-up" onclick="go('sign-up')" >Start Registration</Button> */}
     </div>
   );
 }

@@ -32,7 +32,10 @@
     color: white;
     background-color: rgb(4, 1, 65) !important;
     border: 1px solid transparent !important;
+
+
 }
+
 
 .registration-button:hover {
     background-color: rgb(4, 1, 65) !important;
@@ -51,4 +54,14 @@
     opacity: 1;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+.reg-btn {
+    background-color: #0a0342;
+    color: white;
+}
+.reg-btn:hover {
+    background-color: orange;
+}
+.reg-btn:focus {
+    border: none !important;
 }

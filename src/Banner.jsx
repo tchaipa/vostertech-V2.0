@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 
 export default function Banner() {
   return (
-    <section className="banner-section container-fluid" id="home">
+    <section className="banner-section" id="home">
       <Container className="banner-content ">
         <Row className="banner-row  ">
           <Col className="banner-col">
