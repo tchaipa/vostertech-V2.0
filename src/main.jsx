@@ -10,6 +10,8 @@ import SignupPage from "./pages/SignupPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import ServicesPage from "./pages/ServicesPage.jsx";
 import FAQ from "./pages/FAQ.jsx";
+import TeamPage from "./pages/TeamPage.jsx";
+import PolicyPage from "./pages/PolicyPage.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -20,6 +22,11 @@ const router = createBrowserRouter([
   { path: "sign-up", element: <SignupPage /> },
   { path: "log-in", element: <LoginPage /> },
   { path: "services", element: <ServicesPage /> },
+  { path: "team", element: <TeamPage /> },
+  { path: "policy", element: <PolicyPage /> },
+
+
+
 ]);
 
 createRoot(document.getElementById("root")).render(

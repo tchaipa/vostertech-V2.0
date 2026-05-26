@@ -48,7 +48,7 @@ function AboutUs() {
                 <span class="chk">✓</span> End-to-end digital business solutions
               </li>
             </ul>
-            <a class="btn btn-gold" href="#" onclick="go('about')">
+            <a class="btn btn-gold" href="team" onclick="go('team')">
               Meet Our Team
             </a>
           </div>
