@@ -175,3 +175,8 @@
     font-weight: 700;
     font-size: 13px;
 }
+
+.services-page-section .navbar .navbar-nav .nav-link.navbar-link {
+    color: #0a0342 !important;
+    ;
+}

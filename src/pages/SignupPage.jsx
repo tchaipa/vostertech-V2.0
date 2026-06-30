@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API_URL = "http://localhost:5000/api/v1/auth/signup";   
+const API_URL = "http://localhost:5000/api/v1/auth/signup";
 
 function SignupPage() {
   const [firstName, setFirstName] = useState("");
@@ -20,26 +20,38 @@ function SignupPage() {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const response = await axios.post(API_URL, { firstName, lastName, companyName, email, password, confirmPassword });
+      const response = await axios.post(API_URL, {
+        firstName,
+        lastName,
+        companyName,
+        email,
+        password,
+        confirmPassword,
+      });
       console.log(response.data);
       navigate("/");
     } catch (error) {
       console.error(error);
-      toast.error("Invalid first name, last name, company name, company registration number, company email or password");
+      toast.error(
+        "Invalid first name, last name, company name, company registration number, company email or password",
+      );
       navigate("/sign-up");
       toast.error(error.response.data.message);
-    } 
-    finally {
+    } finally {
       setIsLoading(false);
     }
   };
 
-        const handleFirstNameChange = (e) => {
+  const handleFirstNameChange = (e) => {
     setFirstName(e.target.value);
   };
 
   const handleLastNameChange = (e) => {
     setLastName(e.target.value);
+  };
+
+  const handleCompanyNameChange = (e) => {
+    setCompanyName(e.target.value);
   };
 
   const handleEmailChange = (e) => {
@@ -61,23 +73,83 @@ function SignupPage() {
         <div class="section-inner">
           <div class="signup-form">
             <h2 class="section-title">Sign Up</h2>
-            <form onSubmit={handleSubmit}   > 
-              <div class="form-group">  <label>Company Name</label>
-                <input type="text" placeholder="Last Name" value={lastName} onChange={handleLastNameChange} />
+            <form onSubmit={handleSubmit}>
+              <div class="form-group">
+                {" "}
+                <label>First Name</label>
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  value={firstName}
+                  onChange={handleFirstNameChange}
+                />
               </div>
-              <div class="form-group">  <label>Email</label>
-                <input type="email" placeholder="Email" value={email} onChange={handleEmailChange} />
+              <div class="form-group">
+                {" "}
+                <label>Last Name</label>
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  value={lastName}
+                  onChange={handleLastNameChange}
+                />
               </div>
-              <div class="form-group">  <label>Password</label>
-                <input type="password" placeholder="Password" value={password} onChange={handlePasswordChange} />
+              <div class="form-group">
+                {" "}
+                <label>Company Name</label>
+                <input
+                  type="text"
+                  placeholder="
+                  Company Name"
+                  value={companyName}
+                  onChange={handleCompanyNameChange}
+                />
               </div>
-              <div class="form-group">  <label>Confirm Password</label>
-                <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={handleConfirmPasswordChange} />
+              <div class="form-group">
+                {" "}
+                <label>Email</label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={email}
+                  onChange={handleEmailChange}
+                />
               </div>
-              <button type="submit" className="btn-primary" disabled={isLoading} onClick={handleSubmit}             >{isLoading ? "Loading..." : "Sign Up"}           
-                </button>
-              <p>Already have an account? <a href="/log-in">Log in</a></p>
-              <p>Forgot your password? <a href="/forgot-password">Forgot password</a></p>
+              <div class="form-group">
+                {" "}
+                <label>Password</label>
+                <input
+                  type="password"
+                  placeholder="Password"
+                  value={password}
+                  onChange={handlePasswordChange}
+                />
+              </div>
+              <div class="form-group">
+                {" "}
+                <label>Confirm Password</label>
+                <input
+                  type="password"
+                  placeholder="Confirm Password"
+                  value={confirmPassword}
+                  onChange={handleConfirmPasswordChange}
+                />
+              </div>
+              <button
+                type="submit"
+                className="btn-primary"
+                disabled={isLoading}
+                onClick={handleSubmit}
+              >
+                {isLoading ? "Loading..." : "Sign Up"}
+              </button>
+              <p>
+                Already have an account? <a href="/log-in">Log in</a>
+              </p>
+              <p>
+                Forgot your password?{" "}
+                <a href="/forgot-password">Forgot password</a>
+              </p>
             </form>
           </div>
         </div>

@@ -138,14 +138,15 @@
     resize: vertical;
     min-height: 130px;
 }
- .contacts-page-section .navbar {
-    background-color: #fff;
-    backdrop-filter: blur(3px);
 
- }
- /* .contacts-page-section .navbar .navbar-link {
-    color: black !important;
- } */
- .contacts-page-section .navbar .navbar-nav .nav-link.navbar-link {
-    color: #000 !important;
- }
+.contacts-page-section .navbar {
+    /* background-color: #fff; */
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+
+}
+
+
+.contacts-page-section .navbar .navbar-nav .nav-link.navbar-link {
+    color: orange !important;
+}

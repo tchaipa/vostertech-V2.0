@@ -211,7 +211,7 @@
 .service-icon {
     width: 52px;
     height: 52px;
-    background: rgb(244, 191, 92);
+    background: orange;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -340,12 +340,15 @@
     font-size: 12px;
     font-weight: 700;
 }
+
 .about-section {
-        background-color: rgb(216, 213, 213);
-    
-} 
-.about-section .navbar {
-    /* background-color: #0B1F3A; */
-    backdrop-filter: blur(5px);
+    background-color: aliceblue;
+
+}
+
+
+
+.about-section .navbar .navbar-nav .nav-link.navbar-link {
+    color: orange !important;
 
 }
