@@ -56,11 +56,15 @@
     cursor: pointer;
 }
 .reg-btn {
-    background-color: #0a0342;
-    color: white;
+    background-color: orange;
+    color: grey;
+    padding: 15px;
 }
 .reg-btn:hover {
-    background-color: orange;
+    background-color: #fff;
+    color: orange;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(212, 150, 58, .35);
 }
 .reg-btn:focus {
     border: none !important;

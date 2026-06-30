@@ -212,10 +212,13 @@
 
 .btn-gold {
     background: orange !important;
-    color: navy !important;
+    color: grey !important;
+    font-weight: bold ;
+
 }
 
 .btn-gold:hover {
+    color: orange !important;
     background: transparent !important;
     transform: translateY(-1px);
     box-shadow: 0 6px 20px rgba(212, 150, 58, .35);

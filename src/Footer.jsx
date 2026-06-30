@@ -21,16 +21,16 @@ function Footer() {
             <h4>Services</h4>
             <ul>
               <li>
-                <a href="#">Company Registration</a>
+                <a href="services">Company Registration</a>
               </li>
               <li>
-                <a href="#">Tax Advisory</a>
+                <a href="services">Tax Advisory</a>
               </li>
               <li>
-                <a href="#">Compliance</a>
+                <a href="services">Compliance</a>
               </li>
               <li>
-                <a href="#">Web Development</a>
+                <a href="services">Web Development</a>
               </li>
             </ul>
           </div>
@@ -38,18 +38,18 @@ function Footer() {
             <h4>Company</h4>
             <ul>
               <li>
-                <a href="#" onclick="showPage('about')">
+                <a href="about-us" onclick="showPage('about')">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="blog">Blog</a>
               </li>
               <li>
                 <a href="policy">Privacy Policy</a>
               </li>
               <li>
-                <a href="policy"> FAQ </a>
+                <a href="faq"> FAQ </a>
               </li>
             </ul>
           </div>

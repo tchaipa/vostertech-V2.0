@@ -3,8 +3,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container, NavDropdown, Button } from "react-bootstrap";
 import image from "./assets/vlogo.png";
 
-
-
 function Header() {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -57,13 +55,13 @@ function Header() {
               Services
             </Nav.Link>
             <Nav.Link
-              href="faq"
+              href="about"
               className={
-                activeLink === "faq" ? "active navbar-link" : "navbar-link"
+                activeLink === "about" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("faq")}
+              onClick={() => onUpdateActiveLink("about")}
             >
-              FAQ
+              About Us
             </Nav.Link>
             <Nav.Link
               href="contacts"
@@ -77,7 +75,7 @@ function Header() {
             {/* <Button  className="header-button" href="log-in">
               Log In
             </Button> */}
-              {/* <a className="btn header-btn" href="log-in" onclick="go('log-in')">
+            {/* <a className="btn header-btn" href="log-in" onclick="go('log-in')">
               Log In
             </a> */}
             <Nav.Link

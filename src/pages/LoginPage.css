@@ -10,7 +10,7 @@
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-}   
+}
 
 .form-group {
     margin-bottom: 20px;
@@ -44,12 +44,13 @@
     border-radius: 5px;
     background-color: rgb(18, 2, 112);
     color: #fff;
-}   
+}
 
 .btn-primary:hover {
     background-color: orange;
     color: #fff;
 }
+
 .toast-container {
     top: 0;
     right: 0;
@@ -58,32 +59,40 @@
 
 .toast-error {
     background-color: #dc3545;
-    color: #fff !important                                  ;
-}   
+    color: #fff !important;
+}
+
 .toast-success {
     background-color: #28a745;
     color: #fff !important;
-}   
+}
+
 .toast-warning {
     background-color: #ffc107;
     color: #000 !important;
-}   
+}
+
 .toast-info {
     background-color: #007bff;
     color: #fff !important;
-}   
+}
+
 .toast-dark {
     background-color: red;
     color: #fff !important;
-}   
+}
+
 .toast-light {
     background-color: yellow;
     color: #000 !important;
-}   
+}
+
 .toast-link {
     color: rgb(0, 0, 255) !important;
     text-decoration: none;
-}   
+}
+
 .toast-link:hover {
     color: rgb(255, 0, 0) !important;
-}   
+} 
+

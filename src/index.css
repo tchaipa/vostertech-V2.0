@@ -31,9 +31,9 @@
   padding: 0;
 }
 
-.section {
+/* .section {
   padding: 88px 6%;
-}
+} */
 
 .section-inner {
   max-width: 1160px;
@@ -151,9 +151,7 @@ button {
   transition: border-color 0.25s;
 }
 
-button:hover {
-  border-color: red !important;
-}
+
 
 button:focus,
 button:focus-visible {
@@ -173,4 +171,71 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* ── SECTIONS ── */
+/* .section {
+  padding: 90px 5%;
+} */
+
+.section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-tag {
+  display: inline-block;
+  color: orange;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 42px);
+  color: navy;
+  margin-bottom: 16px;
+}
+
+.section-sub {
+  color: gray;
+  font-size: 17px;
+  max-width: 560px;
+  line-height: 1.75;
+}
+
+.section-header {
+  margin-bottom: 56px;
+}
+
+.section-header.center {
+  text-align: center;
+}
+
+.section-header.center .section-sub {
+  margin: 0 auto;
+}
+
+.divider {
+  width: 48px;
+  height: 3px;
+  background: orange;
+  border-radius: 2px;
+  margin: 16px 0;
+}
+
+.divider.center {
+  margin: 16px auto;
+}
+
+/* ── PAGES ── */
+.page {
+  display: none;
+  padding-top: 68px;
+}
+
+.page.active {
+  display: block;
 }

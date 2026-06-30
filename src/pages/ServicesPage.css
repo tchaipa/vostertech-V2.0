@@ -1,15 +1,17 @@
 .services-page-section {
-    background-color: rgb(151, 154, 157);
+    background-color: #f1f8ff;
     margin: 0 !important;
     display: flex;
     flex-direction: column;
 }
-.services-grid {
+
+.services-page-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
     gap: 22px;
     margin-top: 48px;
 }
+
 .svc {
     background: white;
     border-radius: 10px;
@@ -17,7 +19,8 @@
     transition: all .28s;
     position: relative;
     overflow: hidden;
-}   
+}
+
 .svc-icon {
     width: 50px;
     height: 50px;
@@ -51,26 +54,32 @@
     font-weight: 600;
     margin-top: 16px;
 }
+
 .svc-link:hover {
     color: orange;
     text-decoration: none;
 }
+
 .svc-link:focus {
     color: orange;
     text-decoration: none;
 }
+
 .svc-link:disabled {
     color: orange;
     text-decoration: none;
 }
+
 .svc-link:disabled:hover {
     color: orange;
     text-decoration: none;
 }
+
 .svc-link:disabled:focus {
     color: orange;
     text-decoration: none;
 }
+
 /* ═══════════ SERVICES PAGE ═══════════ */
 /* .pricing-grid {
     display: grid;

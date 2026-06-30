@@ -52,20 +52,6 @@
     width: 96%;
 }
 
-.banner-button {
-    background-color: rgb(4, 1, 65) !important;
-    color: black;
-    color: white;
-    border: 1px solid transparent !important;
-}
-
-.banner-button:hover {
-    color: orange !important;
-    border-color: orange !important;
-    background-color: transparent !important;
-}
-
-
 .banner img {
     animation: updown 3s linear infinite;
 }
@@ -123,15 +109,19 @@
 .banner-button-1 {
     background-color: rgb(4, 1, 65) !important;
     color: white;
-    border: 1px solid transparent !important;
+    /* border: 1px solid transparent !important; */
     margin: 5px;
     padding: 14px 28px !important;
     border-radius: 7px !important;
     font-weight: 600 !important;
     font-size: 15px !important;
     text-decoration: none;
-    border: none;
+    border: none !important;
     display: inline-block;
+}
+
+.banner-button-1:active {
+    border: none !important;
 }
 
 .banner-button-2 {
@@ -144,6 +134,5 @@
     font-weight: 600 !important;
     font-size: 15px !important;
     text-decoration: none;
-    border: none;
     display: inline-block;
 }

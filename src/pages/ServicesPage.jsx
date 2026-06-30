@@ -16,7 +16,7 @@ function ServicesPage() {
               understand the Zimbabwean business environment.
             </p>
           </div>
-          <div class="services-grid">
+          <div class="services-page-grid">
             <div class="svc">
               <div class="svc-icon">🏛️</div>
               <h3>Company Registration</h3>
@@ -90,9 +90,7 @@ function ServicesPage() {
             </div>
           </div>
         </div>
-
       </section>
-    
     </div>
   );
 }

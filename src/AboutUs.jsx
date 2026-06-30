@@ -14,7 +14,7 @@ function AboutUs() {
               <div class="img-label">PROFESSIONAL PARTNERS</div>
             </div>
             <div class="about-badge">
-              <span class="big">12+</span>
+              <span class="big">5+</span>
               <span class="sm">Years of Excellence</span>
             </div>
           </div>

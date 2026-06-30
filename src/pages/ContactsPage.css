@@ -4,7 +4,148 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
-    background-color: rgb(151, 154, 157) !important;
+    background-color: aliceblue !important;
 
 }
 
+.btn-primary {
+    width: 100%;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.form-card h3 {
+    font-size: 22px;
+    color: navy;
+    margin-bottom: 6px;
+}
+
+.form-card p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 28px;
+}
+
+.logo-text {
+    color: white;
+}
+
+/* ── CONTACT PAGE ── */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.contact-info h3 {
+    font-size: 28px;
+    color: navy;
+    margin-bottom: 16px;
+}
+
+.contact-info p {
+    color: gray;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 32px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+.contact-icon {
+    width: 44px;
+    height: 44px;
+    background: orange;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.contact-item h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: navy;
+    margin-bottom: 4px;
+}
+
+.contact-item p {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.form-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    /* border: 1px solid gray; */
+    box-shadow: var(--shadow);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 8px;
+    letter-spacing: .2px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid gray;
+    border-radius: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    color: gray;
+    background: transparent;
+    transition: all .2s;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: orange;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(201, 151, 58, .1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 130px;
+}
+ .contacts-page-section .navbar {
+    background-color: #fff;
+    backdrop-filter: blur(3px);
+
+ }
+ /* .contacts-page-section .navbar .navbar-link {
+    color: black !important;
+ } */
+ .contacts-page-section .navbar .navbar-nav .nav-link.navbar-link {
+    color: #000 !important;
+ }

@@ -2,11 +2,12 @@
     display: block;
     justify-content: center;
     background-color: aliceblue;
+    border-radius: 5%;
 }
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr)) !important;
     gap: 22px;
 }
 
@@ -47,16 +48,16 @@
     height: 50px;
     background: orange;
     border-radius: 11px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     font-size: 22px;
     margin-bottom: 18px;
 }
 
 .svc h3 {
     font-size: 18px;
-    color: navy;
+    color: rgb(134, 235, 26);
     margin-bottom: 9px;
 }
 

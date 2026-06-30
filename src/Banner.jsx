@@ -16,7 +16,7 @@ export default function Banner() {
                 specific needs and provide you with the best possible advice.
                 Contact us today to learn more about our services.
               </p>
-              <Button className="banner-button-1" href="sign-up">
+              <Button className="banner-button-1" href="documents">
                 Book An Appointment
               </Button>
               <Button className="banner-button-2" href="services">

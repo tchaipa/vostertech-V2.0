@@ -15,7 +15,7 @@ function Services() {
             </p>
           </div>
           <div class="services-grid">
-            <div class="svc">
+            <div className="svc">
               <div class="svc-icon">🏛️</div>
               <h3>Company Registration</h3>
               <p>
@@ -82,6 +82,28 @@ function Services() {
                 Learn more →
               </a>
             </div>
+            {/* <div class="svc">
+              <div class="svc-icon">📣</div>
+              <h3>Social Media Management</h3>
+              <p>
+                Consistent, high-quality social presence managed on your behalf
+                so you can focus on your business.
+              </p>
+              <a class="svc-link" href="#" onclick="go('services')">
+                Learn more →
+              </a>
+            </div> */}
+            {/* <div class="svc">
+              <div class="svc-icon">📣</div>
+              <h3>Social Media Management</h3>
+              <p>
+                Consistent, high-quality social presence managed on your behalf
+                so you can focus on your business.
+              </p>
+              <a class="svc-link" href="#" onclick="go('services')">
+                Learn more →
+              </a>
+            </div> */}
           </div>
         </div>
       </section>
