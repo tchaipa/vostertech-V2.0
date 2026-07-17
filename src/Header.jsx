@@ -72,13 +72,11 @@ function Header() {
             >
               Contact
             </Nav.Link>
-            {/* <Button  className="header-button" href="log-in">
+            <Button className="header-button" href="log-in">
               Log In
-            </Button> */}
-            {/* <a className="btn header-btn" href="log-in" onclick="go('log-in')">
-              Log In
-            </a> */}
-            <Nav.Link
+            </Button>
+
+            {/* <Nav.Link
               href="log-in"
               className={
                 activeLink === "login" ? "active navbar-link" : "navbar-link"
@@ -86,7 +84,7 @@ function Header() {
               onClick={() => onUpdateActiveLink("log-in")}
             >
               Log In
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -75,7 +75,6 @@ function SignupPage() {
             <h2 class="section-title">Sign Up</h2>
             <form onSubmit={handleSubmit}>
               <div class="form-group">
-                {" "}
                 <label>First Name</label>
                 <input
                   type="text"
@@ -85,7 +84,6 @@ function SignupPage() {
                 />
               </div>
               <div class="form-group">
-                {" "}
                 <label>Last Name</label>
                 <input
                   type="text"
@@ -95,18 +93,15 @@ function SignupPage() {
                 />
               </div>
               <div class="form-group">
-                {" "}
                 <label>Company Name</label>
                 <input
                   type="text"
-                  placeholder="
-                  Company Name"
+                  placeholder="Company Name"
                   value={companyName}
                   onChange={handleCompanyNameChange}
                 />
               </div>
               <div class="form-group">
-                {" "}
                 <label>Email</label>
                 <input
                   type="email"
@@ -116,7 +111,6 @@ function SignupPage() {
                 />
               </div>
               <div class="form-group">
-                {" "}
                 <label>Password</label>
                 <input
                   type="password"
@@ -126,7 +120,6 @@ function SignupPage() {
                 />
               </div>
               <div class="form-group">
-                {" "}
                 <label>Confirm Password</label>
                 <input
                   type="password"
@@ -147,7 +140,7 @@ function SignupPage() {
                 Already have an account? <a href="/log-in">Log in</a>
               </p>
               <p>
-                Forgot your password?{" "}
+                Forgot your password?
                 <a href="/forgot-password">Forgot password</a>
               </p>
             </form>

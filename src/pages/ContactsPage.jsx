@@ -1,6 +1,17 @@
 import "./ContactsPage.css";
 import Header from "../Header";
-import  Footer from "../Footer";
+import Footer from "../Footer";
+
+// function showToast(msg) {
+//   const t = document.getElementById("toast");
+//   t.textContent = msg;
+//   t.classList.add("show");
+//   setTimeout(() => t.classList.remove("show"), 3500);
+// }
+
+// function submitForm() {
+//   showToast("Message sent! We'll be in touch within 24 hours.");
+// }
 
 function ContactsPage() {
   return (
@@ -110,8 +121,7 @@ function ContactsPage() {
           </div>
         </div>
       </section>
-<Footer></Footer>
-    
+      <Footer></Footer>
     </div>
     // </div>
   );
